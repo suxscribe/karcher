@@ -17,21 +17,28 @@
 			<div class="title-wrap d-flex flex-wrap align-items-center">
 				<h1 class="flex-grow-1">Пользователи</h1>
 				<div class="main-header-buttons">
-					<a href="#" class="btn btn-blue">Создать курс</a>
+					<div class="tab-content" id="users-tabs-buttons">
+						<div class="tab-users tab-pane fade show active" id="users-buttons" role="tabpanel">
+							<a href="#" class="btn btn-blue">Создать пользователя</a>
+						</div>
+						<div class="tab-roles tab-pane fade show " id="roles-buttons" role="tabpanel">
+							<a href="#" class="btn btn-blue">Создать роль</a>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div id="main-content">
 
 				<ul class="nav tabs-line" id="users-tabs" role="tablist">
 					<li class="nav-item">
-						<a class="nav-link active" id="users-tab" data-toggle="tab" href="#users" role="tablist" aria-controls="users" aria-selected="true">Список пользователей</a>
+						<a class="nav-link active" id="users-tab" data-toggle="tab" href="#users" role="tablist" data-target=".tab-users" aria-controls="users,users-buttons" aria-selected="true">Список пользователей</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id="roles-tab" data-toggle="tab" href="#roles" role="tab" aria-controls="roles" aria-selected="false">Роли пользователей</a>
+						<a class="nav-link" id="roles-tab" data-toggle="tab" href="#roles" role="tab" data-target=".tab-roles" aria-controls="roles,roles-buttons" aria-selected="false">Роли пользователей</a>
 					</li>
 				</ul>
 				<div class="tab-content" id="users-tabs-content">
-					<div class="tab-pane fade show active" id="users" role="tabpanel">
+					<div class="tab-users tab-pane fade show active" id="users" role="tabpanel">
 
 						<div class="row">
 							<div class="col-lg-3 d-lg-block filter-pane">
@@ -216,7 +223,7 @@
 						</div>
 
 					</div>
-					<div class="tab-pane fade show " id="roles" role="tabpanel">
+					<div class="tab-roles tab-pane fade show " id="roles" role="tabpanel">
 						<div class="panel-box">
 							<div class="table-responsive">
 								<table class="table table-hover table-user-roles table-sortable">

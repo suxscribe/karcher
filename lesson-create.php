@@ -14,11 +14,7 @@
 
 		<main class="">
 			<div class="title-wrap d-flex flex-wrap align-items-center">
-				<h1 class="flex-grow-1"><a href="" class="btn-back icon-ic_back"></a> Создание курса</h1>
-				<div class="title-buttons">
-					<a href="#" class="btn btn-blue">Сохранить</a>
-					<a href="#" class="btn btn-grey">Отмена</a>
-				</div>
+				<h1 class="flex-grow-1"><a href="" class="btn-back icon-ic_back"></a> Создание урока</h1>
 
 			</div>
 			<div id="main-content">
@@ -35,7 +31,7 @@
 						<form class="" action="/">
 							<div class="form-group">
 								<label class="form-text text-muted" for="input-lesson-name">Название*</label>
-								<input type="text" class="form-control fl-input" id="input-lesson-name" required="" placeholder="Название курса">
+								<input type="text" class="form-control fl-input" id="input-lesson-name" required="" placeholder="Название урока">
 							</div>
 
 							<div class="form-group">
@@ -56,6 +52,11 @@
 								<label class="form-text text-muted" for="input-lesson-points">Количество очков успешного прохождения урока*</label>
 								<input type="text" class="form-control" id="input-lesson-points" placeholder="Количество очков успешного прохождения урока" required="">
 							</div>
+							<div class="form-buttons">
+								<a href="#" class="btn btn-blue">Сохранить</a>
+								<a href="#" class="btn btn-grey">Отмена</a>
+							</div>
+
 						</form>
 
 					</div>

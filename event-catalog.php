@@ -17,22 +17,29 @@
 			<div class="title-wrap d-flex flex-wrap align-items-center">
 				<h1 class="flex-grow-1">Мероприятия</h1>
 				<div class="main-header-buttons">
-					
+					<div class="tab-content" id="event-tabs-buttons">
+						<div class="tab-events tab-pane fade show active" id="events-buttons" role="tabpanel">
+							<a href="#" class="btn btn-blue">Создать мероприятие</a>
+						</div>
+						<div class="tab-requests tab-pane fade show " id="requests-buttons" role="tabpanel">
+
+						</div>
+					</div>
 				</div>
 			</div>
 			<div id="main-content">
 
 				<ul class="nav tabs-line" id="event-catalog-tabs" role="tablist">
 					<li class="nav-item">
-						<a class="nav-link active" id="event-tab" data-toggle="tab" href="#events" role="tablist" aria-controls="users" aria-selected="true">Мероприятия</a>
+						<a class="nav-link active" id="event-tab" data-toggle="tab" href="#events" role="tablist" data-target=".tab-events" aria-controls="events, events-buttons" aria-selected="true">Мероприятия</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id="request-tab" data-toggle="tab" href="#requests" role="tab" aria-controls="roles" aria-selected="false">Заявки на участие</a>
+						<a class="nav-link" id="request-tab" data-toggle="tab" href="#requests" role="tab" data-target=".tab-requests" aria-controls="requests,requests-buttons" aria-selected="false">Заявки на участие</a>
 					</li>
 					
 				</ul>
 				<div class="tab-content" id="event-tabs">
-					<div class="tab-pane fade show active" id="events" role="tabpanel">
+					<div class="tab-events tab-pane fade show active" id="events" role="tabpanel">
 
 						<div class="row">
 							<div class="col-lg-3 d-lg-block filter-pane">
@@ -219,7 +226,7 @@
 						</div>
 
 					</div>
-					<div class="tab-pane fade show " id="requests" role="tabpanel">
+					<div class="tab-requests tab-pane fade show " id="requests" role="tabpanel">
 						<div class="panel-box">
 							
 							<div class="table-responsive">

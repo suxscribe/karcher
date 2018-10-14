@@ -15,10 +15,6 @@
 		<main class="">
 			<div class="title-wrap d-flex flex-wrap align-items-center">
 				<h1 class="flex-grow-1"><a href="" class="btn-back icon-ic_back"></a> Создание теста</h1>
-				<div class="title-buttons">
-					<a href="#" class="btn btn-blue">Сохранить</a>
-					<a href="#" class="btn btn-grey">Отмена</a>
-				</div>
 
 			</div>
 			<div id="main-content">
@@ -43,12 +39,12 @@
 								<input type="text" class="form-control" id="input-test-points" placeholder="Количество очков успешного прохождения урока" required="">
 							</div>
 							<div class="form-group">
-								<label class="form-text text-muted" for="input-test-points">Коэффициент регресса*</label>
-								<input type="text" class="form-control" id="input-test-points" placeholder="Коэффициент регресса" required="">
+								<label class="form-text text-muted" for="input-test-regress">Коэффициент регресса*</label>
+								<input type="text" class="form-control" id="input-test-regress" placeholder="Коэффициент регресса" required="">
 							</div>
 							<div class="form-group">
-								<label class="form-text text-muted" for="input-test-points">Порог прохождения*</label>
-								<input type="text" class="form-control" id="input-test-points" placeholder="Порог прохождения" required="">
+								<label class="form-text text-muted" for="input-test-threshold">Порог прохождения*</label>
+								<input type="text" class="form-control" id="input-test-threshold" placeholder="Порог прохождения" required="">
 							</div>
 
 							<div class="mb-4">
@@ -69,7 +65,7 @@
 							</div>
 
 
-							<div class="form-group">
+							<div class="form-group mb-4">
 								<label class="form-text text-muted" for="input-test-name">Файл теста*</label>
 								<div class="form-file form-file_small d-flex align-items-center">
 									<div class="form-file-label">
@@ -81,6 +77,10 @@
 								</div>
 							</div> 
 
+							<div class="form-buttons">
+								<a href="#" class="btn btn-blue">Сохранить</a>
+								<a href="#" class="btn btn-grey">Отмена</a>
+							</div>
 
 						</form>
 

@@ -203,9 +203,11 @@ $(document).on('click', function(e) {
 
   };
 
-  $("#sidebar").mCustomScrollbar({
+ /* $("#sidebar").mCustomScrollbar({
      theme: "minimal"
-   });
+   });*/
+
+   //jQuery('.sidebar-wrap').scrollbar();
 
 
     // 1 desktop collapse click 
@@ -329,24 +331,37 @@ $(document).on('click', function(e) {
   })
 
 
-    $('.form-datetimepicker').datetimepicker({
-      icons: {
-          time: "icon-dots-hor",
-          date: "icon-ic_event_24px",
-          up: "icon-chevron",
-          down: "icon-chevron-form"
-      },
-      locale: 'ru',
-      allowInputToggle: true
-    });
+  $('.form-datetimepicker').datetimepicker({
+    icons: {
+        time: "icon-dots-hor",
+        date: "icon-ic_event_24px",
+        up: "icon-chevron",
+        down: "icon-chevron-form"
+    },
+    locale: 'ru',
+    allowInputToggle: true
+  });
 
-    $('.form-datetimepicker').addClass('datetimepicker-input'); //fix to close datepicker on click outside
-    $('.form-datetimepicker').on('click', function(event) {
-      //event.preventDefault();
-      $(this).parent().addClass("fl-is-active fl-has-focus");
-      
-      /* Act on the event */
-    });
+  $('.form-datetimepicker').addClass('datetimepicker-input'); //fix to close datepicker on click outside
+  $('.form-datetimepicker').on('click', function(event) {
+    //event.preventDefault();
+    $(this).parent().addClass("fl-is-active fl-has-focus");
+    
+    /* Act on the event */
+  });
+
+  jQuery('.scrollbar-inner').scrollbar({
+    
+  });
+  /*$(".scrollbar-inner").mCustomScrollbar({
+     theme: "minimal"
+   });
+*/
+  autosize($('textarea'));
+
+
+  //var d = $('.scrollbar-inner');
+  //d.scrollTop(d.prop("scrollHeight")); //scroll chat to bottom on load
 
 });
 

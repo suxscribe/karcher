@@ -527,6 +527,8 @@ a[data-toggle="collapse"] {
 	-o-flex-direction: column;
 	flex-direction: column;
 	min-height: 100vh;
+
+	max-height: 100vh;
 }
 .sidebar-wrap .sidebar-header {
 	flex: 0 0 auto;
@@ -615,16 +617,23 @@ a[data-toggle="collapse"] {
 	align-items: center;
 	padding: 0 32px;
 }
-.title-wrap .title-buttons {
+.title-wrap .title-buttons,
+.form-buttons {
 	margin-top: -8px;
 	margin-left: -4px;
 	margin-right: -4px;
 }
-.title-wrap .title-buttons a {
+.title-wrap .title-buttons a,
+.form-buttons a {
 	display: inline-block;
 	margin-left: 4px;
 	margin-right: 4px;
 	margin-top: 8px;
+}
+
+.title-buttons .btn,
+.form-buttons .btn {
+	min-width: 144px;
 }
 
 a.btn-back {
@@ -724,7 +733,7 @@ a.btn-back:hover {
 
 @media (max-width: 767px) {
 	#content main {
-		padding: 26px 12px;
+		padding: 26px 8px;
 	}
 	#header.main-header {
 		height: 80px;
@@ -820,6 +829,7 @@ a.btn-back:hover {
 @media (max-width: 767px) {
 	.panel-box {
 		overflow: hidden;
+		padding: 16px 8px;
 	}
 }
 
@@ -982,6 +992,10 @@ a.btn-back:hover {
 }
 
 /* FL forms */
+
+.fl-label {
+	white-space: nowrap;
+}
 
 .fl-form_inline .fl-wrap {
 	margin-bottom: 40px;
@@ -1173,7 +1187,7 @@ a.btn-back:hover {
 
 
 .btn-handle {
-	
+	font-weight: normal;
 	width: 24px;
 	height: 24px;
 	display: block;
@@ -1451,7 +1465,9 @@ a.btn-back:hover {
 	/*top:0;*/
 }
 
-
+table tr.unread {
+	font-weight: bold;
+}
 
 /* DATEPICKER */
 .bootstrap-datetimepicker-widget.dropdown-menu {
@@ -1538,4 +1554,156 @@ a.btn-back:hover {
 .dd-multisel .form-check-label {
 	color: #000;
 	font-size: 14px;
+}
+
+
+/* POPUP MODAL */
+.modal-content {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	border: none;
+	border-radius: 0;
+	box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+	padding: 16px;
+}
+
+.modal-header {
+	padding: 0 5px 16px 5px;
+	border-radius: 0;
+}
+
+.modal-content .custom-control-label {
+	font-size: 16px;
+}
+.modal-content .custom-control-label::before {
+	top: 4px;
+}
+
+.modal-footer {
+	border:none;
+	padding-top: 2rem;
+}
+
+
+/* CHAT */
+
+.messages {
+	/*overflow: hidden;*/
+	
+
+}
+.messages > .scroll-wrapper {
+	height: 400px;
+}
+.message_history {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+	max-height: 400px;
+}
+.scroll-wrapper > .message_history.scroll-content {
+	padding-right: 16px;
+}
+
+.message {
+	padding: 16px;
+	border-radius: 8px;
+	flex: 0 0 auto;
+	width: 60%;
+	margin: 4px 0;
+}
+@media (max-width: 959px) {
+	.message {
+		width: 95%;
+	}
+}
+.message p {
+  
+  margin: 0;
+}
+.message .message-user {
+	font-size: 14px;
+	color: var(--text-muted);
+}
+
+
+.message.message_incoming {
+  background: #F1F1F1;
+  border-top-left-radius: 0
+ }
+
+.message.message_outgoing{ 
+	align-self: flex-end;
+	background: rgba(0, 144, 163, 0.3);
+	border-top-right-radius: 0;
+}
+
+
+
+.time_date {
+  font-size: 14px;
+  margin: 4px 0 0;
+  color: var(--text-muted);
+}
+.message-date {
+	color: var(--text-muted-2);
+}
+
+
+.message.message_incoming + .message.message_outgoing {
+	margin-top: 12px;
+}
+.message.message_outgoing + .message.message_incoming {
+	margin-top: 12px;
+}
+
+.message.message_outgoing + .message.message_outgoing .message-user,
+.message.message_incoming + .message.message_incoming .message-user {
+	display: none;
+}
+
+.input_msg_write input {
+  border: none;
+  min-height: 48px;
+  width: 100%;
+}
+.message-type textarea {
+	width: 100%;
+	border: none;
+}
+
+.message-type {
+	border-top: 1px solid #c4c4c4;
+	position: relative;
+	padding-top: 1rem;
+}
+
+.message-tools {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.messaging { 
+	padding: 0 0 2rem 0;
+}
+
+
+/* scrollbar */
+#sidebar .scrollbar-inner > .scroll-element .scroll-element_track {
+	background: none;
+}
+#sidebar .scrollbar-inner > .scroll-element.scroll-y {
+	width: 5px;
+	opacity: 0;
+	transition: all 0.1s ease 0s;
+}
+#sidebar:hover .scrollbar-inner > .scroll-element.scroll-y {
+	opacity: 1;
+}
+.scroll-element.scroll-x {
+    display: none !important;
 }

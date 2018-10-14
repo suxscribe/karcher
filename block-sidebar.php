@@ -1,5 +1,5 @@
 <nav id="sidebar">
-	<div class="sidebar-wrap">
+	<div class="sidebar-wrap scrollbar-inner">
 		<div class="sidebar-header">
 			<div class="sidebar-user d-flex flex-row">
 				<div class="sidebar-user-avatar">

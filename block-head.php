@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="stylesheets/dropzone.css">
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheets/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="stylesheets/jquery.scrollbar.css">
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/custom.css">
@@ -21,6 +22,8 @@
     <script src="js/moment-ru.js"></script>
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="js/jquery.scrollbar.min.js"></script>
+    <script src="js/autosize.min.js"></script>
 
     <!--<script src="js/dropzone.js"></script>-->
     <!-- <script src="js/jquery.sortable.js"></script> -->
