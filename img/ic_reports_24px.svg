@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="ic_reports_24px" transform="translate(-16 -508)">
+    <path id="Path_2215" data-name="Path 2215" class="cls-1" d="M16,20H2a2,2,0,0,1-2-2V4A2,2,0,0,1,2,2H6.18A2.988,2.988,0,0,1,11.82,2H16a2,2,0,0,1,2,2V18A2,2,0,0,1,16,20Zm-4-7v4h2V13ZM8,7V17h2V7ZM4,10v7H6V10ZM9,2a1,1,0,1,0,1,1A1,1,0,0,0,9,2Z" transform="translate(19 510)"/>
+    <rect id="Rectangle_1995" data-name="Rectangle 1995" class="cls-2" width="24" height="24" transform="translate(16 508)"/>
+  </g>
+</svg>

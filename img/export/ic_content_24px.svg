@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="ic_content_24px" transform="translate(-16 -460)">
+    <path id="ic_dashboard_24px" class="cls-1" d="M3,13h8V3H3Zm0,8h8V15H3Zm10,0h8V11H13ZM13,3V9h8V3Z" transform="translate(16 460)"/>
+    <rect id="Rectangle_1994" data-name="Rectangle 1994" class="cls-2" width="24" height="24" transform="translate(16 460)"/>
+  </g>
+</svg>

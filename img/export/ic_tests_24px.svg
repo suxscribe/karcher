@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #181818;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="ic_tests_24px" transform="translate(-16 -148)">
+    <g id="Group_1555" data-name="Group 1555" class="cls-1" transform="translate(-169 -24)">
+      <path id="ic_assignment_24px" class="cls-2" d="M19,3H14.82A2.988,2.988,0,0,0,9.18,3H5A2.006,2.006,0,0,0,3,5V19a2.006,2.006,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V5A2.006,2.006,0,0,0,19,3ZM12,3a1,1,0,1,1-1,1A1,1,0,0,1,12,3Zm5,14H10V15h7Zm0-4H10V11h7Zm0-4H10V7h7Z" transform="translate(185 173)"/>
+      <rect id="Rectangle_1742" data-name="Rectangle 1742" class="cls-3" width="2" height="2" transform="translate(192 180)"/>
+      <rect id="Rectangle_1743" data-name="Rectangle 1743" class="cls-3" width="2" height="2" transform="translate(192 184)"/>
+      <rect id="Rectangle_1744" data-name="Rectangle 1744" class="cls-3" width="2" height="2" transform="translate(192 188)"/>
+    </g>
+    <rect id="Rectangle_1990" data-name="Rectangle 1990" class="cls-4" width="24" height="24" transform="translate(16 148)"/>
+  </g>
+</svg>

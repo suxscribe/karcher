@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="ic_orders_24px" transform="translate(-16 -700)">
+    <path id="ic_assignment_turned_in_24px" class="cls-1" d="M19,3H14.82A2.988,2.988,0,0,0,9.18,3H5A2.006,2.006,0,0,0,3,5V19a2.006,2.006,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V5A2.006,2.006,0,0,0,19,3ZM12,3a1,1,0,1,1-1,1A1,1,0,0,1,12,3ZM10,17,6,13l1.41-1.41L10,14.17l6.59-6.59L18,9Z" transform="translate(16 701)"/>
+    <rect id="Rectangle_1999" data-name="Rectangle 1999" class="cls-2" width="24" height="24" transform="translate(16 700)"/>
+  </g>
+</svg>

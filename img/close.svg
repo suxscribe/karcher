@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="close" transform="translate(-334 -24)">
+    <rect id="Rectangle_1953" data-name="Rectangle 1953" class="cls-1" width="24" height="24" transform="translate(334 24)"/>
+    <rect id="Rectangle_1955" data-name="Rectangle 1955" width="24" height="2" transform="translate(336.808 43.778) rotate(-45)"/>
+    <rect id="Rectangle_2053" data-name="Rectangle 2053" width="24" height="2" transform="translate(338.222 26.808) rotate(45)"/>
+  </g>
+</svg>

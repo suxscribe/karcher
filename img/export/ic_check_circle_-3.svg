@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #63a982;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="ic_check_circle_24px" transform="translate(-1352 -448)">
+    <path id="ic_check_circle_24px-2" data-name="ic_check_circle_24px" class="cls-1" d="M10,2a8,8,0,1,0,8,8A8,8,0,0,0,10,2ZM8.4,14l-4-4L5.528,8.872,8.4,11.736l6.072-6.072L15.6,6.8Z" transform="translate(1354 450)"/>
+    <rect id="Rectangle_1935" data-name="Rectangle 1935" class="cls-2" width="24" height="24" transform="translate(1352 448)"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg id="Kaercher_Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.104 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff000;
+      }
+    </style>
+  </defs>
+  <g id="Logo" transform="translate(0 0)">
+    <rect id="Grafik" class="cls-1" width="139.104" height="11.128" transform="translate(0 24.872)"/>
+    <g id="Wortmarke">
+      <path id="Path_2222" data-name="Path 2222" d="M42.034,6.742C42.034,8.537,41.325,9,39.586,9H37.152V4.67h2.5c1.822,0,2.42.473,2.42,2.073Zm6.19-.223c0-4.173-2.949-6.26-8.513-6.26H31.24V19.206h5.912V12.96H39.6l3.213,6.246h6.955l-4.855-7.372a5.355,5.355,0,0,0,3.338-5.3Z" transform="translate(12.216 0.102)"/>
+      <path id="Path_2223" data-name="Path 2223" d="M79.392,14.532V11.653H87.1V7.507H79.392V4.976h9.32L88.614.26H73.48V19.206H88.99l.1-4.674Z" transform="translate(28.733 0.102)"/>
+      <path id="Path_2224" data-name="Path 2224" d="M76.007,19.206V.26H70.123v7h-6.3v-7H57.91V19.206h5.912V12.084h6.3v7.122Z" transform="translate(22.645 0.102)"/>
+      <path id="Path_2225" data-name="Path 2225" d="M60.331.779A17.3,17.3,0,0,0,55.226,0C47.9,0,44.71,3.77,44.71,9.737c0,6.468,3.436,9.9,10,9.9a14.661,14.661,0,0,0,5.7-1.141l-.626-4.34a11.671,11.671,0,0,1-4.243.779C51.929,14.94,51,13.7,51,9.779s.862-4.952,4.493-4.952a15.9,15.9,0,0,1,4.3.584Z" transform="translate(17.483 0)"/>
+      <path id="Path_2226" data-name="Path 2226" d="M97.506,6.742C97.506,8.537,96.8,9,95.058,9H92.582V4.67h2.5C96.908,4.67,97.506,5.143,97.506,6.742Zm6.19-.223c0-4.173-2.949-6.26-8.513-6.26H86.67V19.206h5.912V12.96H95.03l3.227,6.246h6.955l-4.855-7.372a5.355,5.355,0,0,0,3.338-5.3Z" transform="translate(33.891 0.102)"/>
+      <path id="Path_2227" data-name="Path 2227" d="M27.131,11.629H22.777l1.586-4.952L24.947,4.7h.07l.556,1.975Zm9,7.581L28.439.25H21.6L14,19.21h6.287L21.3,16.024h7.122l.988,3.185Z" transform="translate(5.474 0.098)"/>
+      <rect id="Rectangle_2009" data-name="Rectangle 2009" width="4.396" height="4.02" transform="translate(20.059 0.348)"/>
+      <rect id="Rectangle_2010" data-name="Rectangle 2010" width="4.396" height="4.02" transform="translate(36.556 0.348)"/>
+      <path id="Path_2228" data-name="Path 2228" d="M12.38.26,7.8,7.354H5.912V.26H0V19.206H5.912v-7.4H7.734l4.59,7.4H19.53L12.992,9.218,19.182.26Z" transform="translate(0 0.102)"/>
+    </g>
+  </g>
+</svg>

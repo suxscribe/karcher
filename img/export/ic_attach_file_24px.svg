@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0090a2;
+      }
+    </style>
+  </defs>
+  <g id="ic_attach_file_24px" transform="translate(-333 -375)">
+    <path id="ic_attach_file_24px-2" data-name="ic_attach_file_24px" class="cls-1" d="M16.5,6V17.5a4,4,0,0,1-8,0V5a2.5,2.5,0,0,1,5,0V15.5a1,1,0,0,1-2,0V6H10v9.5a2.5,2.5,0,0,0,5,0V5A4,4,0,0,0,7,5V17.5a5.5,5.5,0,0,0,11,0V6Z" transform="translate(356 368) rotate(90)"/>
+  </g>
+</svg>
